@@ -26,6 +26,15 @@ body {
   width: 450px;
 }
 
+h1{
+ margin: 0px;
+}
+
+.product img{
+      border-radius: 50%;
+      border: 3px solid red
+}
+
 .reviews{
   text-align: center;
   padding: 0.50
@@ -65,14 +74,52 @@ header{
 
 main{
   background-color: #456A78;
+  color: white;
+  padding: 20px;
+;
 }
   
 
 footer{
   background-color: #505883;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+ 
 }
 
 
 .reviews{
   background-color: #6E8350;
+}
+
+
+.map{
+  text-align: center;
+}
+
+.nav-link{
+  color: red;
+  text-decoration: none;
+}
+
+h4{
+  margin-top: 0;
+
+}
+
+
+.nav-link:hover{
+  font-size: 22px;
+  border: 3px solid black;
+  background: white;
+  border-radius: 30px;
+  padding: 3px
+}
+
+
+.price{
+    font-size: 20px
 }
