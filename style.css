@@ -1,17 +1,13 @@
 body {
-    font-family: sans-serif;
-}
-
-.h-1{
-   text-align: center;
-   
-
-   
+  font-family: sans-serif;
+  margin: 0;
 }
 
 .navigation{
-    text-align: center;
-    color: rgb(238, 10, 10);
+  text-align: center;
+  color: rgb(238, 10, 10);
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 
@@ -28,6 +24,11 @@ body {
 
 h1{
  margin: 0px;
+ text-align: center;
+}
+
+.h-1{
+  margin: 45px 0;
 }
 
 .product img{
@@ -36,11 +37,10 @@ h1{
 }
 
 .reviews{
+  background-color: #6E8350;
+  padding: 25px 10%;
   text-align: center;
-  padding: 0.50
-  
 }
-
 
 .review{
   display: flex;
@@ -48,19 +48,30 @@ h1{
   width: 550px;
   gap: 15px;
   margin-top: 15px;
+  font-size: 20px;
 }
 
 
 
-  .location{
-    text-align: center
-  }
+.location{
+  text-align: center
+}
 
 
 
 .about{
   display: flex;
-  aling-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text{
+  margin-right: 35px;
+  font-size: 22px;
+}
+
+.about-text h1{
+  text-align: left;
 }
 
 .about img{
@@ -70,13 +81,13 @@ h1{
 
 header{
   background-color: #505883;
+  padding: 35px 0;
 }
 
 main{
   background-color: #456A78;
   color: white;
-  padding: 20px;
-;
+  padding: 20px 0;
 }
   
 
@@ -90,12 +101,6 @@ footer{
  
 }
 
-
-.reviews{
-  background-color: #6E8350;
-}
-
-
 .map{
   text-align: center;
 }
@@ -103,6 +108,7 @@ footer{
 .nav-link{
   color: red;
   text-decoration: none;
+  margin: 0 5px;
 }
 
 h4{
